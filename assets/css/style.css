@@ -1,0 +1,40 @@
+body{
+	background-image: url("../images/cloud.jpg")
+}
+
+
+.title{
+	font-size: 30px;
+}
+
+#main{
+	border: solid 2px red;
+	width: 400px;
+	font-size: 20px;
+	padding: 10px;
+	float: left;
+	height: 450px;
+	font-weight: bold;
+}
+
+.pic{
+	width: 300px;
+	height: 350px;
+
+}
+
+.box{
+	border: solid 2px blue;
+	overflow-x: hidden;
+	margin-right: 96px;
+	margin-left: 600px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 30px;
+
+}
+
+.game{
+	margin-left: 600px;
+}

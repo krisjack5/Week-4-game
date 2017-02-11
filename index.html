@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>crystal game</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+ <body>
+
+  <div class="title">
+    <h1>Crystal Collector</h1>
+  </div>
+
+  <div id="main"><p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to the random number. You lose the game if your total score exceeds the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time a new game starts the values of each crystal changes.</p>
+  </div>
+
+  <div class= "box">
+  <div id="prize"><span id="randomScore"></span></div>
+  <div id="number"></div>
+
+  <div id="win"><span id="winLossCount"></span></div>
+  </div>
+  
+   <div class = "game">
+       <img id="red" class="pic" src="assets\images\redcrystal.jpg">
+       <img id="blue" class="pic" src="assets/images/bluecrystal.jpg">
+   
+      <img id="green" class="pic" src="assets/images/greencrystal.jpg">
+      <img id="purple" class="pic" src="assets/images/purplecrystal.jpg"">
+  </div>
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="assets\javascript\game.js"></script>
+
+</body>
+</html>
